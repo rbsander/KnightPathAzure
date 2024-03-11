@@ -27,7 +27,7 @@ namespace KnightPath
                 using (HttpClient newClient = new HttpClient())
                 {
                     HttpRequestMessage newRequest = new HttpRequestMessage(HttpMethod.Get, string.Format("https://{0}/runtime/webhooks/durabletask/instances/{1}", host, operationId));
-                    newRequest.Headers.Add("x-functions-key", "MOtU1fSRhQkMAyw5UYmEFQhB5Y85PuxNYhPC0zhXMqCCAzFu6ucoYQ==");
+                    newRequest.Headers.Add("x-functions-key", "ActualKey");
                     //http:///localhost:7071/runtime/webhooks/durabletask/instances/{1}
 
 
